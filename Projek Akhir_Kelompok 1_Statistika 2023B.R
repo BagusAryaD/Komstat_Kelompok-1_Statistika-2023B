@@ -1,3 +1,4 @@
+
 library(shiny)
 library(shinyWidgets)
 library(shinydashboard)
@@ -322,4 +323,6 @@ server <- function(input, output, session) {
   })
 }
 
-shinyApp(ui, server)
+
+# Run app
+shinyApp(ui = ui, server = server)
